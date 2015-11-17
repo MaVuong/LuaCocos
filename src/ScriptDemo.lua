@@ -1,15 +1,15 @@
 function AnimationParse(strinfo)
-   local tbdecode=decode(strinfo);
+    local tbdecode=decode(strinfo);
   
   local xpos=tbdecode["tx"]+0;
   local scrt={};
   
-  if xpos>240 then
+  if xpos<240 then
     scrt["cid"]="2";
-    scrt["script"]='["ChangeColor(1||1||0||0)","ChangeColor(1||1||1||1)",]';
+    scrt["script"]='["RotateBy(2||360)"]';
   else
     scrt["cid"]="1";
-    scrt["script"]='["ChangeColor(1||1||0||0)","ChangeColor(1||1||1||1)",]';
+    scrt["script"]='["JumpAction(4||{500,90})"]';
   end
   
   return encode(scrt);

@@ -7,6 +7,25 @@ function OnEnterFinish(strinfo)
   return tb;
 end
 
+
+function simpleAnimationtapRotateAndJumpOne(strinfo)
+   local tbdecode=decode(strinfo);
+  
+  local xpos=tbdecode["tx"]+0;
+  local scrt={};
+  
+  if xpos<240 then
+    scrt["cid"]="2";
+    scrt["script"]='["RotateBy(2||360)"]';
+  else
+    scrt["cid"]="1";
+    scrt["script"]='["JumpAction(4||{500,90})"]';
+  end
+  
+  return encode(scrt);
+end
+
+
 function simpleAnimationtap(strinfo)
    local tbdecode=decode(strinfo);
   
@@ -23,6 +42,8 @@ function simpleAnimationtap(strinfo)
   
   return encode(scrt);
 end
+
+
 
 
 

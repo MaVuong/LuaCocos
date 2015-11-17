@@ -118,7 +118,7 @@
         <dict>
             <key>Arg</key>
             <array>
-                <string>{42å0,90}</string>
+                <string>{420,90}</string>
             </array>
             <key>SEL</key>
             <string>scSetPos:</string>

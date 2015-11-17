@@ -11,7 +11,6 @@ function simpleAnimationtap(strinfo)
    local tbdecode=decode(strinfo);
   
   local xpos=tbdecode["tx"]+0;
-  print("vi tri x touch la : "..xpos);
   local scrt={};
   
   if xpos>240 then
@@ -25,11 +24,13 @@ function simpleAnimationtap(strinfo)
   return encode(scrt);
 end
 
+
+
+
 function AnimationParse(strinfo)
   local tbdecode=decode(strinfo);
   
   local xpos=tbdecode["tx"]+0;
-  print("vi tri x touch la : "..xpos);
   local scrt={};
   
   if xpos>240 then

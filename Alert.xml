@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>UIAlertView</string>
+		<key>init_type</key>
+		<integer>1</integer>
+		<key>type</key>
+		<string>@</string>
+		<key>var</key>
+		<string>alerview</string>
+	</dict>
+	<dict>
+		<key>Arg</key>
+		<array>
+			<string>YEU CAU CAP NHAT DU LIEU</string>
+		</array>
+		<key>SEL</key>
+		<string>setTitle:</string>
+		<key>load</key>
+		<integer>1</integer>
+		<key>signature</key>
+		<string>@@:@</string>
+		<key>type</key>
+		<string>v</string>
+		<key>var</key>
+		<string>alerview</string>
+	</dict>
+	<dict>
+		<key>Arg</key>
+		<array>
+			<string>UPDATE</string>
+		</array>
+		<key>SEL</key>
+		<string>addButtonWithTitle:</string>
+		<key>load</key>
+		<integer>1</integer>
+		<key>signature</key>
+		<string>@@:@</string>
+		<key>type</key>
+		<string>v</string>
+		<key>var</key>
+		<string>alerview</string>
+	</dict>
+	<dict>
+		<key>SEL</key>
+		<string>show</string>
+		<key>load</key>
+		<integer>1</integer>
+		<key>signature</key>
+		<string>@@:</string>
+		<key>type</key>
+		<string>v</string>
+		<key>var</key>
+		<string>alerview</string>
+	</dict>
+</array>
+</plist>

@@ -3,22 +3,28 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>SEL</key>
+		<string>sharedApplication</string>
+		<key>class</key>
+		<string>UIApplication</string>
 		<key>init_type</key>
-		<integer>3</integer>
+		<integer>2</integer>
+		<key>signature</key>
+		<string>@@:</string>
 		<key>type</key>
 		<string>@</string>
 		<key>var</key>
-		<string>rootnode</string>
+		<string>application</string>
 	</dict>
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>IMG/cocay.png</string>
+			<string>http://google.com.vn</string>
 		</array>
 		<key>SEL</key>
-		<string>spriteWithImageNamed:</string>
+		<string>URLWithString:</string>
 		<key>class</key>
-		<string>CCSprite</string>
+		<string>NSURL</string>
 		<key>init_type</key>
 		<integer>2</integer>
 		<key>signature</key>
@@ -26,15 +32,15 @@
 		<key>type</key>
 		<string>@</string>
 		<key>var</key>
-		<string>spbg</string>
+		<string>urlopen</string>
 	</dict>
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>{300,50}</string>
+			<string>local-urlopen</string>
 		</array>
 		<key>SEL</key>
-		<string>scSetPos:</string>
+		<string>openURL:</string>
 		<key>load</key>
 		<integer>1</integer>
 		<key>signature</key>
@@ -42,23 +48,7 @@
 		<key>type</key>
 		<string>v</string>
 		<key>var</key>
-		<string>spbg</string>
-	</dict>
-	<dict>
-		<key>Arg</key>
-		<array>
-			<string>local-spbg</string>
-		</array>
-		<key>SEL</key>
-		<string>addChild:</string>
-		<key>load</key>
-		<integer>1</integer>
-		<key>signature</key>
-		<string>@@:@</string>
-		<key>type</key>
-		<string>v</string>
-		<key>var</key>
-		<string>rootnode</string>
+		<string>application</string>
 	</dict>
 </array>
 </plist>

@@ -63,7 +63,7 @@
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>IMG/canh.png</string>
+			<string>IMG/Minion.png</string>
 		</array>
 		<key>SEL</key>
 		<string>spriteWithImageNamed:</string>
@@ -81,7 +81,7 @@
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>{300,250}</string>
+			<string>{100,50}</string>
 		</array>
 		<key>SEL</key>
 		<string>scSetPos:</string>

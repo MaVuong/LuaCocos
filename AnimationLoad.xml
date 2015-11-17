@@ -3,28 +3,22 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>SEL</key>
-		<string>sharedApplication</string>
-		<key>class</key>
-		<string>UIApplication</string>
 		<key>init_type</key>
-		<integer>2</integer>
-		<key>signature</key>
-		<string>@@:</string>
+		<integer>3</integer>
 		<key>type</key>
 		<string>@</string>
 		<key>var</key>
-		<string>application</string>
+		<string>rootnode</string>
 	</dict>
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>http://google.com.vn</string>
+			<string>IMG/cocay.png</string>
 		</array>
 		<key>SEL</key>
-		<string>URLWithString:</string>
+		<string>spriteWithImageNamed:</string>
 		<key>class</key>
-		<string>NSURL</string>
+		<string>CCSprite</string>
 		<key>init_type</key>
 		<integer>2</integer>
 		<key>signature</key>
@@ -32,15 +26,15 @@
 		<key>type</key>
 		<string>@</string>
 		<key>var</key>
-		<string>urlopen</string>
+		<string>spbg</string>
 	</dict>
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>local-urlopen</string>
+			<string>{300,50}</string>
 		</array>
 		<key>SEL</key>
-		<string>openURL:</string>
+		<string>scSetPos:</string>
 		<key>load</key>
 		<integer>1</integer>
 		<key>signature</key>
@@ -48,7 +42,73 @@
 		<key>type</key>
 		<string>v</string>
 		<key>var</key>
-		<string>application</string>
+		<string>spbg</string>
+	</dict>
+	<dict>
+		<key>Arg</key>
+		<array>
+			<string>local-spbg</string>
+		</array>
+		<key>SEL</key>
+		<string>addChild:</string>
+		<key>load</key>
+		<integer>1</integer>
+		<key>signature</key>
+		<string>@@:@</string>
+		<key>type</key>
+		<string>v</string>
+		<key>var</key>
+		<string>rootnode</string>
+	</dict>
+	<dict>
+		<key>Arg</key>
+		<array>
+			<string>IMG/canh.png</string>
+		</array>
+		<key>SEL</key>
+		<string>spriteWithImageNamed:</string>
+		<key>class</key>
+		<string>CCSprite</string>
+		<key>init_type</key>
+		<integer>2</integer>
+		<key>signature</key>
+		<string>@@:@</string>
+		<key>type</key>
+		<string>@</string>
+		<key>var</key>
+		<string>spbg2</string>
+	</dict>
+	<dict>
+		<key>Arg</key>
+		<array>
+			<string>{300,250}</string>
+		</array>
+		<key>SEL</key>
+		<string>scSetPos:</string>
+		<key>load</key>
+		<integer>1</integer>
+		<key>signature</key>
+		<string>@@:@</string>
+		<key>type</key>
+		<string>v</string>
+		<key>var</key>
+		<string>spbg2</string>
+	</dict>
+	<dict>
+		<key>Arg</key>
+		<array>
+			<string>local-spbg2</string>
+		</array>
+		<key>SEL</key>
+		<string>addChild:</string>
+		<key>load</key>
+		<integer>1</integer>
+		<key>signature</key>
+		<string>@@:@</string>
+		<key>type</key>
+		<string>v</string>
+		<key>var</key>
+		<string>rootnode</string>
 	</dict>
 </array>
 </plist>

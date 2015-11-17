@@ -6,10 +6,10 @@ function AnimationParse(strinfo)
   
   if xpos>240 then
     scrt["cid"]="2";
-    scrt["script"]='["ChangeColor(2||1||0||0)","ChangeColor(1||1||1||1)",]';
+    scrt["script"]='["ScaleTo(1||1.2)","ScaleTo(1||1)",]';
   else
     scrt["cid"]="1";
-    scrt["script"]='["ChangeColor(2||1||0||0)","ChangeColor(1||1||1||1)",]';
+    scrt["script"]='["ScaleTo(1||1.2)","ScaleTo(1||1)",]';
   end
   
   return encode(scrt);

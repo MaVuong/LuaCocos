@@ -7,17 +7,10 @@ function AnimationParse(strinfo)
   
   if xpos>240 then
     scrt["cid"]="2";
-<<<<<<< HEAD
     scrt["script"]='["ChangeColor(2||1||0||0)","ChangeColor(1||1||1||1)",]';
   else
     scrt["cid"]="1";
     scrt["script"]='["ChangeColor(2||1||0||0)","ChangeColor(1||1||1||1)",]';
-=======
-    scrt["script"]='["MoveTo(2||{400,320})","RotateBy(2||360)","MoveTo(1||{100,120})"]';
-  else
-    scrt["cid"]="1";
-    scrt["script"]='["MoveTo(2||{400,320})","ChangeColor(2||1||0||0)","MoveTo(1||{200,120})"]';
->>>>>>> origin/master
   end
   
   return encode(scrt);

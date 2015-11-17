@@ -44,22 +44,7 @@
 		<key>var</key>
 		<string>spbg</string>
 	</dict>
-	<dict>
-		<key>Arg</key>
-		<array>
-			<string>local-spbg</string>
-		</array>
-		<key>SEL</key>
-		<string>addChild:</string>
-		<key>load</key>
-		<integer>1</integer>
-		<key>signature</key>
-		<string>@@:@</string>
-		<key>type</key>
-		<string>v</string>
-		<key>var</key>
-		<string>rootnode</string>
-	</dict>
+	
 	<dict>
 		<key>Arg</key>
 		<array>
@@ -110,5 +95,25 @@
 		<key>var</key>
 		<string>rootnode</string>
 	</dict>
+    
+    
+    
+    
+    <dict>
+        <key>Arg</key>
+        <array>
+            <string>local-spbg</string>
+        </array>
+        <key>SEL</key>
+        <string>addChild:</string>
+        <key>load</key>
+        <integer>1</integer>
+        <key>signature</key>
+        <string>@@:@</string>
+        <key>type</key>
+        <string>v</string>
+        <key>var</key>
+        <string>rootnode</string>
+    </dict>
 </array>
 </plist>

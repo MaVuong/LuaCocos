@@ -3,22 +3,38 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>class</key>
-		<string>UIAlertView</string>
 		<key>init_type</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>type</key>
 		<string>@</string>
 		<key>var</key>
-		<string>alerview</string>
+		<string>rootnode</string>
 	</dict>
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>YEU CAU CAP NHAT DU LIEU</string>
+			<string>IMG/cocay.png</string>
 		</array>
 		<key>SEL</key>
-		<string>setTitle:</string>
+		<string>spriteWithImageNamed:</string>
+		<key>class</key>
+		<string>CCSprite</string>
+		<key>init_type</key>
+		<integer>2</integer>
+		<key>signature</key>
+		<string>@@:@</string>
+		<key>type</key>
+		<string>@</string>
+		<key>var</key>
+		<string>spbg</string>
+	</dict>
+	<dict>
+		<key>Arg</key>
+		<array>
+			<string>{300,50}</string>
+		</array>
+		<key>SEL</key>
+		<string>scSetPos:</string>
 		<key>load</key>
 		<integer>1</integer>
 		<key>signature</key>
@@ -26,15 +42,15 @@
 		<key>type</key>
 		<string>v</string>
 		<key>var</key>
-		<string>alerview</string>
+		<string>spbg</string>
 	</dict>
 	<dict>
 		<key>Arg</key>
 		<array>
-			<string>UPDATE</string>
+			<string>local-spbg</string>
 		</array>
 		<key>SEL</key>
-		<string>addButtonWithTitle:</string>
+		<string>addChild:</string>
 		<key>load</key>
 		<integer>1</integer>
 		<key>signature</key>
@@ -42,20 +58,7 @@
 		<key>type</key>
 		<string>v</string>
 		<key>var</key>
-		<string>alerview</string>
-	</dict>
-	<dict>
-		<key>SEL</key>
-		<string>show</string>
-		<key>load</key>
-		<integer>1</integer>
-		<key>signature</key>
-		<string>@@:</string>
-		<key>type</key>
-		<string>v</string>
-		<key>var</key>
-		<string>alerview</string>
+		<string>rootnode</string>
 	</dict>
 </array>
 </plist>
-

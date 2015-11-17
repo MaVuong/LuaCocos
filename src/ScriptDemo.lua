@@ -4,7 +4,7 @@ function AnimationParse(strinfo)
   local xpos=tbdecode["tx"]+0;
   local scrt={};
   
-  if xpos<240 then
+  if xpos>240 then
     scrt["cid"]="2";
     scrt["script"]='["RotateBy(2||360)"]';
   else
